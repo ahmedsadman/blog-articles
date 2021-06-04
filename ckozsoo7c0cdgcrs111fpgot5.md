@@ -35,8 +35,6 @@ Well, to deploy your application you can do the following:
 **Seems scary, right?**
 
 
-<iframe src="https://giphy.com/embed/12RfP2odT4hEOI" width="480" height="437" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
 To add on top of that, please note that as your application grows, you will need more and more servers to handle the load. So, now you have to maintain multiple servers.
 
 The above scenario is almost obsolete nowadays. Unless you're handling very sensitive data (like state secrets), you will be using a cloud provider to host your application on the internet.
