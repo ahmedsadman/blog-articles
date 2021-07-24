@@ -4,7 +4,7 @@ Passwords are the first and most important layer of security of any application.
 
 
 ## What is password hashing?
-Saving passwords as plain text is the worst. If an attacker compromises your database, he can see all the passwords of your users. This actually goes against privacy laws. Firstly, as the developer, you should never know the user's password. Secondly, a user might use common passwords across different devices and such data leaks might be devastating for an individual. So, how do you protect passwords?
+Saving passwords as plain text is the worst. If an attacker compromises your database, he can see all the passwords of your users. This actually goes against privacy laws. Firstly, as the developer, you should never know the user's password. Secondly, a user might use common passwords across different accounts and such data leaks might be devastating for an individual. So, how do you protect passwords?
 
 You use password hashing. Hashing is a cryptographic way to secure users passwords. In this way, no one can find out the actual password even if he directly looks into the database. Even the application owners or developers wouldn't be able to tell the user's password.
 
