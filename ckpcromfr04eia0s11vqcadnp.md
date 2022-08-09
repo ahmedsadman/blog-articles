@@ -194,8 +194,6 @@ The ODM (Object Document Mapping) is Mongoose. ODM and ORM are the same things. 
 ## Clean code and refactoring (Optional)
 For the curious-minded people out there. This will definitely help when you start your first job. You can go through this much later if you want. Clean code and refactoring is a skill that comes through experience. But still, you have to know some concepts so that you get directed to the right path.
 
-**Learning resources are provided at the end of the article**
-
 
 ## Resources
 The section you've been waiting for! Here, most of the resources I share were used for my own learning. For some parts, you have to follow multiple tutorials. Please note, *order matters in those cases*.
