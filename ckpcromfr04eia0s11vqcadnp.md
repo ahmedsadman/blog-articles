@@ -47,9 +47,10 @@ But before doing that, let's get familiar with some job titles that relate to we
 
 
 **Site Reliability Engineer (SRE)**
-- Development-focused engineers who solve operational/scale/reliability problems
-- It's an overlap of DevOps and Backend Engineering
-- Has direct involvement with the implementation of the product
+- Engineers who solve operational/scale/reliability problems and maintain infrastructure
+- It's an overlap of DevOps and Backend Engineering, or we can say a glorified form of DevOps Engineering
+- Has somewhat involvement with the software product by providing reliability consultations (like what DB to use or not to use, how to scale properly etc)
+- Not really involved in writing code for the actual software, rather routine maintenance work
 
 
 *Please note, based on your company, you might be simply called a **Software Engineer** regardless of which above category you fall into.*
