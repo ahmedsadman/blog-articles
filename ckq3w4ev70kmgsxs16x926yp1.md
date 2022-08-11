@@ -135,6 +135,9 @@ Let's go through our current observations, where we assume that the values of `M
 So, this is the time to introduce some complexity in the data layer by introducing a master-slave architecture.
 
 
+> In a real-life scenario, you will have a lot more options before making your data layer complex. For example, breaking down services and scaling up separate services as required, each having their own database systems. But for the sake of learning and simplicity, we are considering a mono repo (single-service) with a single database
+
+
 ### Master-slave architecture for the data layer
 In such an architecture, there are multiple nodes of the same type. There is only one `master` node who are tasked with an important responsibility, whereas the `slaves` are helping hands for the master.
 
