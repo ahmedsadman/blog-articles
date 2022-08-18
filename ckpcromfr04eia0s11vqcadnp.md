@@ -101,6 +101,14 @@ Design patterns are typical solutions to common problems in software design. Eac
 
 Design Patterns are the most valuable but most underestimated skill. It relates to how you should structure your code in an Object-Oriented Design environment. In some cases, you will not be using these pre-defined patterns directly. But these are required so that you understand common OOP principles and even use customized versions of these patterns when you're working with large codebases.
 
+Unless you have a thirst for learning, you don't need to go through all the patterns. Just focus on those listed below:
+
+**Creational Patterns:** Factory, Abstract Factory, Singleton, Builder
+
+**Structural Patterns:** Adapter, Decorator, Facade
+
+**Behavioral Pattern:** Command, Observer, Visitor
+
 *Don't know what Object Oriented Programming is? no worries, follow the roadmap and it will come on its own accord*
 
 ## Database
