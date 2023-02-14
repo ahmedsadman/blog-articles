@@ -1,4 +1,4 @@
-# Why you should not always use JWT for authentication
+# Why you should not use JWT for authentication
 
 JWT (JSON Web Token) is a well-known and simple method of authenticating a user. Almost all tutorials you did on the backend, specially API building tutorials probably told you to use JWT. I also thought once that JWT is the modern and better authentication method. Of course, it was a lack of my knowledge. One day, in our architecture meeting at work, I discovered how wrong I was. This article tries to shed some light on this and show you some other alternatives of JWT, which can be better suited depending on your needs
 
