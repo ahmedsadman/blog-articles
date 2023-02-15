@@ -34,7 +34,7 @@ You can, of course, use short-lived tokens and use [refresh tokens](https://www.
 
 **Blacklisting user sessions**
 
-Maybe some logins got marked as *unauthorized* by the user, maybe the login was suspicious, or the device is lost or not used anymore. In that case, you would want to blacklist that (refresh) token. To do this, you would actually have to store those blacklisted tokens in a persistent database and check through them each time a user needs authorized access. This can be an overhead. Besides, storing blacklisted tokens is equivalent to **maintaining state** on the server, which somewhat defeats the purpose of JWT.
+Maybe some logins got marked as *unauthorized* by the user, maybe the login was suspicious, or the device is lost or not used anymore. In that case, you would want to blacklist that token. To do this, you would actually have to store those blacklisted tokens in a persistent database and check through them each time a user needs authorized access. This can be an overhead. Besides, storing blacklisted tokens is equivalent to **maintaining state** on the server, which somewhat defeats the purpose of JWT.
 
 **Manually adding it to requests**
 
