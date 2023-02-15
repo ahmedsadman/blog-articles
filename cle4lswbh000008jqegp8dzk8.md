@@ -32,13 +32,9 @@ With JWT, the biggest problem is there are no reliable ways to log out users. Th
 
 You can, of course, use short-lived tokens and use [refresh tokens](https://www.geeksforgeeks.org/jwt-authentication-with-refresh-tokens/) to fetch new JWT tokens. Let's say, your token expiration time is 2 mins. Now, you have to handle the complexity of using refresh tokens and generating new tokens every 2 minutes. This will be a big overhead in your front end. It will also cost your servers if your application grows large. Above all, you still don't have full control if you want to unauthenticate a user.
 
-**Inability to modify signed data**
-
-Once the token is signed with data claims, it cannot be modified. Suppose, a user is demoted from an admin user to a regular user, there is no way to honor this change till the token expires.
-
 **Blacklisting user sessions**
 
-Maybe some logins got marked as *unauthorized* by the user, maybe the login was suspicious, or the device is lost or not used anymore. In that case, you would want to blacklist that (refresh) token. To do this, you would actually have to store those blacklisted tokens in a persistent database and check through them each time a user needs authorized access. This can be an overhead.
+Maybe some logins got marked as *unauthorized* by the user, maybe the login was suspicious, or the device is lost or not used anymore. In that case, you would want to blacklist that (refresh) token. To do this, you would actually have to store those blacklisted tokens in a persistent database and check through them each time a user needs authorized access. This can be an overhead. Besides, storing blacklisted tokens is equivalent to **maintaining state** on the server, which somewhat defeats the purpose of JWT.
 
 **Manually adding it to requests**
 
@@ -218,7 +214,9 @@ That's it! The full code can be accessed and run from [this Repl](https://replit
 
 ## Where to use JWT?
 
-Although JWT might not always be the solution for your web API authentications, it definitely has some use of its own. It's a great way to gain temporary access to protected 3rd party resources. Or sometimes, it can be used to communicate between two independent microservices.
+Don't get me wrong, JWT is a solid solution, but it works best in certain scenarios, not all. In a gateway backend (backend directly communicating with web client), JWT complicates things. Besides server implementation, you have to maintain a whole lot of logic in the front end. On the other hand, cookies make everything simpler.
+
+Although JWT might not always be the solution for your web API authentications, it definitely has some use of its own. It's a great way to gain temporary access to protected 3rd party resources. Or in another terms, JWT is best suited when communicating API to API.
 
 Suppose, you use Spotify. Now, for the sake of this example, let's say a song is stored in AWS S3 and the access URL looks like this
 
