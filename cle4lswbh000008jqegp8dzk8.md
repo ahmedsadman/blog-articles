@@ -12,7 +12,7 @@ A JWT token looks like this
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 ```
 
-This example is taken from [jwt.io](https://jwt.io/). You will find the decoded version if you visit the page. It contains `sub` (user identification), `name` and `iat` (token expiry time).
+This example is taken from [jwt.io](https://jwt.io/). You will find the decoded version if you visit the page. It contains `sub` (user identification), `name` and `iat` (issuing time). Instead of `iat`, `exp` (expiry time) is also used.
 
 This [image](https://stytch.com/blog/jwts-vs-sessions-which-is-right-for-you/) can help you understand the breakdown
 
