@@ -4,7 +4,7 @@ JWT (JSON Web Token) is a well-known and simple method of authenticating a user.
 
 ## What is JWT?
 
-JWT (JSON Web Token) is a **stateless** token containing user information, **encrypted** using public-private cryptography. Anyone can decrypt the data, but only the owner can encrypt it. As such, an intruder cannot modify the token information without knowing the private key.
+JWT (JSON Web Token) is a **stateless** token containing user information, **signed** using public-private cryptography. Anyone can decrypt the data, but only the owner can encrypt it. As such, an intruder cannot modify the token information without knowing the private key.
 
 A JWT token looks like this
 
