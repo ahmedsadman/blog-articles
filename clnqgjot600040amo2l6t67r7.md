@@ -131,9 +131,9 @@ Enough of naming, let's move forward to the next one
 
 A beginner's mistake 🧑‍🦱. They know about formatting practices but are not willing enough to follow them. There's nothing fancy here, so I am linking a good article which explains formatting: [Clean Code - Formatting](https://hackmd.io/@jenc/H1bgodhlo). If someone is interested, have a look!
 
-# 3\. Writing better functions 🔨
+## 3\. Writing better functions 🔨
 
-## Keep it short
+### Keep it short
 
 Functions should be relatively short. I'm going to keep this simple, so not giving any specific line count. But, functions should be easy to read and easy to understand. Consider the following example in Python, which handles uploading images to a file server.
 
